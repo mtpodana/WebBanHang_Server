@@ -1,0 +1,29 @@
+{
+  "name": "tmdt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "engines": { "node": "14.20.0" },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "firebase": "^9.13.0",
+    "firebase-admin": "^11.2.0",
+    "method-override": "^3.0.0",
+    "fs": "0.0.1-security",
+    "morgan": "^1.10.0",
+    "mssql": "^9.0.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "uuid-v4": "^0.1.0"
+  }
+}
